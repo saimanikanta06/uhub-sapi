@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_c25563b9_252a_4d08_84c4_c89c9e72b0df_Output_Payload = Array<{  firstName: String,   lastName: String,   updateDate: String,   address: {    country: String,     streetAddress: String,     city: String,     state: String,     postal: String,     _?: Any  },   nationalID: String,   phone: String,   dateOfBirth: String,   source: String,   email?: String,   nationalIDType: String,   caseType: String,   createDate: String,   _?: Any} {"description": "Contains each case object"}>
+
